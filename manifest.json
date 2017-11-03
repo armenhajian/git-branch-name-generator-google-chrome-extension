@@ -11,8 +11,11 @@
   },
   "content_scripts": [
     {
-      "matches": ["https://github.com/*"],
+      "matches": ["https://github.com/*", "*://*.atlassian.net/*"],
       "js": ["getPageSource.js"]
     }
+  ],
+  "permissions": [
+    "tabs"
   ]
 }
