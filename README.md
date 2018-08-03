@@ -2,4 +2,8 @@ Google Chrome extension
 
 Git branch name generator
 
-Convert your Github issue title to branch name
+Convert your issue title to branch name
+
+Supported git platforms
+- GitHub
+- Atlassian JIRA
