@@ -34,7 +34,9 @@ chrome.runtime.onMessage.addListener(
       return {
         title: document.getElementById('summary-val').innerHTML,
         number: document.getElementsByClassName('issue-link')[0].innerHTML,
-        types: []//@todo: implement right logic for this
+        types: [
+          document.getElementById('type-val').innerText
+        ]
       }
     }
 
